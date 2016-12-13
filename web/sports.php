@@ -51,6 +51,6 @@
         //Prepend players string in selected stats. PLayer is always first row in table
         array_unshift($selectedStats, "player");
         //You can pass in data to the view through render
-        render("sports_page.php", ["data" => $data, "keys" => $selectedStats, "title" => "Scrabble Results"]);
+        render("sports_page.php", ["data" => $data,"title" => "Scrabble Results"]);
     }
 ?>
